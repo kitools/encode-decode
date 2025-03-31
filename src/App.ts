@@ -82,6 +82,20 @@ import 'virtual:uno.css';
 import '@styles/style.styl';
 // import './index.css';
 
+import DisableDevtool from 'disable-devtool';
+
+DisableDevtool({
+  tkName: 'debug',
+  md5: 'a10311459433adf322f2590a4987c423',
+  url: 'https://github.com/kitools/encode-decode',
+  timeOutUrl: 'https://github.com/kitools/encode-decode',
+  disableMenu: false,
+  disableSelect: false,
+  disableCopy: false,
+  disableCut: false,
+  disablePaste: false,
+});
+
 // import { RouterView } from 'vue-router';
 import RootLayout from '@layouts/RootLayout';
 

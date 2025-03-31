@@ -47,6 +47,9 @@ importers:
       dexie:
         specifier: ^4.0.11
         version: 4.0.11
+      disable-devtool:
+        specifier: ^0.3.8
+        version: 0.3.8
       file-saver:
         specifier: ^2.0.5
         version: 2.0.5
@@ -2498,6 +2501,9 @@ packages:
 
   dexie@4.0.11:
     resolution: {integrity: sha512-SOKO002EqlvBYYKQSew3iymBoN2EQ4BDw/3yprjh7kAfFzjBYkaMNa/pZvcA7HSWlcKSQb9XhPe3wKyQ0x4A8A==}
+
+  disable-devtool@0.3.8:
+    resolution: {integrity: sha512-spwifiBbcgDTVEdzoWyH3NjZ1he/OgJmUNXvMgEffJ8Fh2B6mEJjCCEV25wlJSyNXEdGyzKFFRXh4kVDRK/wCg==}
 
   dotenv@16.4.7:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
@@ -6351,6 +6357,8 @@ snapshots:
       dequal: 2.0.3
 
   dexie@4.0.11: {}
+
+  disable-devtool@0.3.8: {}
 
   dotenv@16.4.7: {}
 

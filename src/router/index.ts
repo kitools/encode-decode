@@ -24,7 +24,7 @@ import AppNotesView from '@views/appViews/AppNotesView';
 // ];
 const routes = [
   { path: '/:pathMatch(.*)*', name: '404', component: NotFoundView },
-  { path: '/', redirect: '/app-notes' },
+  { path: '/', redirect: '/notes' },
   { path: '/', name: 'app-root', component: AppView, children: [
     { path: 'md5', name: 'tool-md5', component: ToolMd5View },
     { path: 'tool', name: 'app-tool', component: AppToolView },

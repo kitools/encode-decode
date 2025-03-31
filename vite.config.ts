@@ -80,7 +80,7 @@ export default defineConfig({
           vue: ['vue', 'vue-router', 'vue-i18n', 'pinia'],
           // vueuse: ['@vueuse/core', '@vueuse/rxjs'],
           primevue: ['primevue'],
-          transformers: ['@huggingface/transformers'],
+          // transformers: ['@huggingface/transformers'],
           // icons: ['@kalimahapps/vue-icons'],
         }
       }

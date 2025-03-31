@@ -10,6 +10,7 @@ import NotFoundView from '@views/NotFoundView';
 import AppView from '@views/AppView';
 import AppToolView from '@views/appViews/AppToolView';
 import ToolMd5View from '@views/appViews/ToolMd5View';
+import ToolEncryptView from '@views/appViews/ToolEncryptView';
 import AppNotesView from '@views/appViews/AppNotesView';
 
 // const routes = [
@@ -27,6 +28,7 @@ const routes = [
   { path: '/', redirect: '/notes' },
   { path: '/', name: 'app-root', component: AppView, children: [
     { path: 'md5', name: 'tool-md5', component: ToolMd5View },
+    { path: 'encrypt', name: 'tool-encrypt', component: ToolEncryptView },
     { path: 'tool', name: 'app-tool', component: AppToolView },
     { path: 'notes', name: 'app-notes', component: AppNotesView },
   ] },

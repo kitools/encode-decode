@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@hey-api/client-fetch": "^0.5.7",
-    "@huggingface/transformers": "^3.3.3",
     "@kalimahapps/vue-icons": "^1.7.1",
     "@primeuix/themes": "^1.0.0",
     "@vueuse/core": "^11.3.0",
@@ -72,6 +71,7 @@
     "@types/file-saver": "^2.0.7",
     "@types/lodash": "^4.17.15",
     "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.13.14",
     "@types/pako": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^8.25.0",
     "@typescript-eslint/parser": "^8.25.0",
